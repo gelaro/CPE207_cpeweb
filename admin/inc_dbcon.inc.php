@@ -1,5 +1,5 @@
 <?php
-    require "config.inc.php";
+    require "../config.inc.php";
     $conn = new mysqli($db['host'], $db['username'], $db['password'], $db['name']);
     mysqli_set_charset($conn, "utf8");
 
