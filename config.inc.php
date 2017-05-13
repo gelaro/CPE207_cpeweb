@@ -1,5 +1,4 @@
 <?php
-
     $db['host'] = "localhost";
     $db['username'] = "root";
     $db['password'] = "";
@@ -11,4 +10,6 @@
     $admin['name'] = "";
 
 
+    $img['student_dir'] = "student_img";
+    $img['student_pro_w'] = 210;
 ?>

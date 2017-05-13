@@ -1,5 +1,5 @@
 <?php
-    require "inc_dbcon.inc.php";
+    require __DIR__."/inc_dbcon.inc.php";
 
     $sql = "SELECT * FROM `config_parse`";
     $result = $conn->query($sql);
