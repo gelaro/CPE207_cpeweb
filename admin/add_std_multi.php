@@ -26,7 +26,7 @@ $std_add_multi->show_notification();
     </script>
 </head>
 <body>
-<form action="multi_file_upload.php" enctype="multipart/form-data">
+<form action="api/add_photo.php" enctype="multipart/form-data" method="post">
     Select images: <input type="file" name="img[]" multiple>
     <input type="submit">
 </form>
