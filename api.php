@@ -34,4 +34,12 @@ class StudentApi{
         return $this->n->find_data_by_year($year);
     }
 }
+
+class ConfigApi{
+
+}
+
+class DatabaseApi{
+
+}
 ?>

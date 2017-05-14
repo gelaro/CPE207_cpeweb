@@ -1,7 +1,7 @@
 <?php
     require __DIR__."/inc_dbcon.inc.php";
 
-    $sql = "SELECT * FROM `config_parse`";
+    $sql = "SELECT * FROM 'config_parse'";
     $result = $conn->query($sql);
 
     while ($res = $result->fetch_assoc()){

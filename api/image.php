@@ -12,7 +12,6 @@
         }else{
             $pic_img = "http://www.blingyourband.com/skin/frontend/blingyourband/blingyourbands/images/no-available-image.png";
         }
-
         return "<img src=\"".$pic_img."\" alt=\"\" width=\"".$img['student_pro_w']."\">";
     }
 

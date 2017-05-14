@@ -12,4 +12,5 @@
 
     $img['student_dir'] = "student_img";
     $img['student_pro_w'] = 210;
+    $img['support'] = array("png","jpg","jpge");
 ?>

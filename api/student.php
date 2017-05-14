@@ -1,6 +1,6 @@
 <?php
 
-require __DIR__."/../admin/inc_dbcon.inc.php";
+//require __DIR__."/../admin/inc_dbcon.inc.php";
 
 class StudentProcess{
     private function connect($sql){
